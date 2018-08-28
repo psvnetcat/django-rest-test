@@ -10,5 +10,4 @@ class TableName(models.Model):
         db_table = 'table_name'
 
     def __str__(self):
-        #return 'Asentamiento: {}'.format(self.nombre)
         return self.nombre
